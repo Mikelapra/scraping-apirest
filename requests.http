@@ -1,0 +1,16 @@
+### Obtener todas las publicaciones
+
+GET http://localhost:3001/noticias
+
+### Añadir usuario al objeto
+POST http://localhost:3001/noticias
+Content-Type: application/json
+
+{
+        "titulo": "hola",
+        "imagen": "",
+        "descripcion": "hola",
+        "enlace": ""
+    }
+
+
